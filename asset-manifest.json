@@ -1,0 +1,16 @@
+{
+  "files": {
+    "main.css": "/Portfolio-React/static/css/main.bf538fe7.css",
+    "main.js": "/Portfolio-React/static/js/main.34d974cb.js",
+    "static/media/HeroImage.jpg": "/Portfolio-React/static/media/HeroImage.b4ac8a1112183ae0fea9.jpg",
+    "static/media/chatGPT.png": "/Portfolio-React/static/media/chatGPT.1b6b302796bf0312afdb.png",
+    "static/media/internshala.jpg": "/Portfolio-React/static/media/internshala.e943ea8056142b8b6966.jpg",
+    "index.html": "/Portfolio-React/index.html",
+    "main.bf538fe7.css.map": "/Portfolio-React/static/css/main.bf538fe7.css.map",
+    "main.34d974cb.js.map": "/Portfolio-React/static/js/main.34d974cb.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.bf538fe7.css",
+    "static/js/main.34d974cb.js"
+  ]
+}
