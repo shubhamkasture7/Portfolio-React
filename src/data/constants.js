@@ -12,7 +12,7 @@ export const Bio = {
     "I am a motivated and versatile individual, always eager to take on new challenges. With a passion for learning I am dedicated to delivering high-quality results. With a positive attitude and a growth mindset, I am ready to make a meaningful contribution and achieve great things.",
   github: "https://github.com/shubhamkasture7",
   resume:
-    "https://drive.google.com/file/d/1KT7jIydQ9FhpXE2C7uxv7VD4RaoLBpL6/view?usp=sharing",
+    "https://drive.google.com/file/d/18H5XvLbuGDZQUwMDBtY6NpabK5BmdDbQ/view?usp=sharing",
   linkedin: "https://www.linkedin.com/in/shubham-kasture-04b581275",
   insta: "https://www.instagram.com/sk_rider_boy/",
   facebook: "https://www.facebook.com/share/NYh1bMgmevaBNVJ1/?mibextid=qi2Omg",
@@ -47,11 +47,7 @@ export const skills = [
         image:
           "https://getbootstrap.com/docs/5.3/assets/brand/bootstrap-logo-shadow.png",
       },
-      {
-        name: "Flutter",
-        image:
-          "https://cdn-images-1.medium.com/max/1200/1*5-aoK8IBmXve5whBQM90GA.png",
-      },
+      
     ],
   },
   {
@@ -95,6 +91,11 @@ export const skills = [
         name: "Android Studio",
         image:
           "https://developer.android.com/static/studio/images/new-studio-logo-1_1920.png",
+      },
+      {
+        name: "Flutter",
+        image:
+          "https://cdn-images-1.medium.com/max/1200/1*5-aoK8IBmXve5whBQM90GA.png",
       },
     ],
   },
@@ -146,11 +147,11 @@ export const experiences = [
       "JavaScript",
       "Bootstrap",
     ],
-    doc: "https://github.com/shubhamkasture7/CODSOFT",
+    // doc: "https://github.com/shubhamkasture7/CODSOFT",
   },
   {
     id: 1,
-    img: "https://firebasestorage.googleapis.com/v0/b/flexi-coding.appspot.com/o/flipr.jpeg?alt=media&token=1d72532a-45eb-4c1a-a81a-c9bed9fec543",
+    img: "https://techno.sveri.ac.in/img/techno-societal-logo.jpg",
     role: "Fullstack Web Application",
     company: "Sveri",
     date: "01 May 2024 - 05 May 2024",
@@ -162,7 +163,23 @@ export const experiences = [
       "JavaScript",
       "Bootstrap",
     ],
-    doc: "http://techno.sveri.ac.in/",
+    // doc: "http://techno.sveri.ac.in/",
+
+  },
+  {
+    id: 2,
+    img: "https://media.licdn.com/dms/image/v2/D4E0BAQH6UYvHONuwCw/company-logo_200_200/company-logo_200_200/0/1715341141837?e=1745452800&v=beta&t=HZtN7FPNlqj08-lwuMWt8H2ExPaFVbhG9SOQy5R2cdw",
+    role: "Web Development Trainee",
+    company: "Fourise Solutions Pvt. Ltd",
+    date: "11 jun 2024 - 26 jun 2024",
+    desc: "Completed a 15-day intensive MERN stack training, strengthening front-end development skills.",
+    skills: [
+      "HTML",
+      "CSS",
+      "JavaScript",
+      "ReactJS",
+    ],
+    // doc: "/",
 
   },
   
@@ -171,7 +188,7 @@ export const experiences = [
 export const education = [
   {
     id: 0,
-    img: "https://lh3.googleusercontent.com/proxy/kRC4Z4zePALAchNHHf9oS7X_0eEiNQVct6W_voJklXcuKSODaUzG9cUw2AlQav5xl3zkCf2c881eDSa23Qs_0A",
+    img: "https://coe.sveri.ac.in/wp-content/themes/SVERICoE/images/sverilogo.png",
     school: "SVERI College Engineering, Pandharpur",
     date: "Nov 2022 - Aug 2026",
     grade: "9.68 CGPA",
@@ -206,7 +223,7 @@ export const projects = [
     description:
       "Techno Social is an international-level event organized by SVERI College of Engineering Pandharpur, for which I developed the website.",
     image:
-      "https://drive.google.com/file/d/1LaGaWCZN2PYHyffIDk6gjGUhffs9WAL4/view?usp=sharing",
+      "https://raw.githubusercontent.com/shubhamkasture7/Portfolio-React/refs/heads/master/src/images/Sveri%20event.png",
       // {internshala},
     tags: [
       "HTML",
@@ -216,17 +233,16 @@ export const projects = [
       "PHP",
     ],
     category: "web app",
-    // github: "https://github.com/rishavchanda/Trackify",
     webapp: "http://techno.sveri.ac.in/index.php",
   },
   {
     id: 0,
-    title: "Podstream",
+    title: "Jarvis Assistant",
     date: "Jun 15, 2024",
     description:
       "Developed a full-stack web application that allows users to search for, play like virtual assistanat. Practiced agile methodologies to optimize efficiency and communication.",
     image:
-      "https://drive.google.com/file/d/1yOF-S-pjCqVpybMkShWUmW4KDDbtPMp8/view?usp=sharing",
+      "https://raw.githubusercontent.com/shubhamkasture7/Portfolio-React/refs/heads/master/src/images/jarvis.png",
     tags: [ 
       "HTML",
       "CSS",
@@ -244,7 +260,7 @@ export const projects = [
     description:
       "Designed and developed the HRMS project, a project management app that helps Police departmant stay organized and on track. Implemented key features such as task tracking and alocation of duty.",
     image:
-      "https://drive.google.com/file/d/1GBxy3_FP8hXoklx7fXc-Spt4psmfShMy/view?usp=sharing",
+      "https://raw.githubusercontent.com/shubhamkasture7/Portfolio-React/refs/heads/master/src/images/police.jpg",
     tags: [
       "React Js",
       "firebase",
@@ -264,7 +280,7 @@ export const projects = [
     description:
       " I developed a machine learning model to predict customer churn by analyzing customer data and identifying patterns that indicate a higher likelihood of leaving, enabling targeted retention strategies.",
     image:
-      "https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.projectpro.io%2Farticle%2Fchurn-models%2F709&psig=AOvVaw2hclDAnEnO-BMHIijv9c1c&ust=1720547271989000&source=images&cd=vfe&opi=89978449&ved=0CBEQjRxqFwoTCMiP0Z2AmIcDFQAAAAAdAAAAABAE",
+      "https://www.cleartouch.in/wp-content/uploads/2022/11/Customer-Churn.png",
     tags: ["Python", "Jupitor", "Streamlit"],
     category: "machine learning",
     github: "https://github.com/shubhamkasture7",
@@ -272,27 +288,27 @@ export const projects = [
     member: [
       {
         name: "Shubham Kasture",
-        img: "https://th.bing.com/th/id/OIP.BoqJ8tKGpWzJm8UbfGVbOwHaHa?rs=1&pid=ImgDetMain",
+        img: "https://media.licdn.com/dms/image/v2/D5603AQHNXbbdhlNURQ/profile-displayphoto-shrink_400_400/profile-displayphoto-shrink_400_400/0/1730103094031?e=1743033600&v=beta&t=WPjl-HFxtxrdKaE5LBd8m6w2-RgzH3nH6W9Ja7lDps4",
         linkedin: "https://www.linkedin.com/in/shubham-kasture-04b58127",
         github: "https://github.com/shubhamkasture7/",
       },
       {
         name: "Ajinkya Survase",
-        img: "https://th.bing.com/th/id/OIP.BoqJ8tKGpWzJm8UbfGVbOwHaHa?rs=1&pid=ImgDetMain",
-        linkedin: "/",
+        img: "https://media.licdn.com/dms/image/v2/D4D03AQG7kjr2PxoZJg/profile-displayphoto-shrink_400_400/profile-displayphoto-shrink_400_400/0/1721958033544?e=1743033600&v=beta&t=lmLq5b5CILql8UdWej_SIYOFI31XrQdFUWkTSo8XbQo",
+        linkedin: "https://www.linkedin.com/in/ajinkya7499/",
         github: "https://github.com/ajinkyasurvase88",
       },
     ],
   },
   {
     id: 3,
-    title: "Jarvis",
+    title: "JARVIS-Inspired Desktop Application",
     date: "feb 2024",
     description:
-      "App Is Currently In Playstore 100+ Downloads. This Project proposes an “Expense Tracking App”. Keep track of your personal expenses and compare them to your monthly income with the budget planner. It has Google Drive Cloud API for Backup of User Room Database. Made with Kotlin in MVVM Architecture & Live Data.",
+        "A Java-based virtual assistant that emulates JARVIS from the Marvel Universe. It features AI-driven speech recognition, task automation, and real-time responses for an intelligent user experience.",
     image:
-      // "https://drive.google.com/file/d/1Wpgy5KI-M3GKoPhdq0Z0ZwpflXsx4FDn/view?usp=sharing",
-      {internshala},
+      "https://raw.githubusercontent.com/shubhamkasture7/Portfolio-React/refs/heads/master/src/images/jarvis23.jpg",
+      // {internshala},
     tags: [ "JAVA", "MYSQL Server"],
     category: "android app",
     github: "https://github.com/shubhamkasture7",
@@ -304,9 +320,9 @@ export const projects = [
     title: "Tic Tac Tic",
     date: "Jun 2024",
     description:
-      " A Todo Web App made with React JS, Redux, and Material UI. It has a login page where users can log in with their Google account. It has a sidebar where users can see all the tasks and can create a new task. It has a calendar where users can see all the tasks on a particular date. It has a search bar where users can search for a particular task.",
+      "A classic two-player game where players mark Xs and Os on a 3x3 grid to align three in a row. Features include a simple interface, responsive design, and an optional AI opponent for solo play.",
     image:
-      "https://camo.githubusercontent.com/a328255ad96f861f57d25096d28018ab2656c689a1456b0d145764009bed2d1a/68747470733a2f2f666972656261736573746f726167652e676f6f676c65617069732e636f6d2f76302f622f746f646f2d6170702d63386331392e61707073706f742e636f6d2f6f2f53637265656e73686f74253230283938292e706e673f616c743d6d6564696126746f6b656e3d33643335646366322d626666322d343730382d393031632d343232383866383332386633",
+      "https://media.geeksforgeeks.org/wp-content/cdn-uploads/implementation-tic-tac-toe.png",
     tags: ["Html", "CSS", "JAVASCRIPT", ],
     category: "web app",
     github: "/",
@@ -316,10 +332,10 @@ export const projects = [
 
 ];
 
-export const TimeLineData = [
-  { year: 2017, text: "Started my journey" },
-  { year: 2018, text: "Worked as a freelance developer" },
-  { year: 2019, text: "Founded JavaScript Mastery" },
-  { year: 2020, text: "Shared my projects with the world" },
-  { year: 2021, text: "Started my own platform" },
-];
+// export const TimeLineData = [
+//   { year: 2017, text: "Started my journey" },
+//   { year: 2018, text: "Worked as a freelance developer" },
+//   { year: 2019, text: "Founded JavaScript Mastery" },
+//   { year: 2020, text: "Shared my projects with the world" },
+//   { year: 2021, text: "Started my own platform" },
+// ];
