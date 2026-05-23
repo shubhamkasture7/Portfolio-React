@@ -1,21 +1,20 @@
-import chatgpt from "../images/chatGPT.png";
-import internshala from '../images/internshala.jpg';
-
 export const Bio = {
   name: "Shubham Kasture",
   roles: [
     "Full Stack Developer",
-    "UI/UX Designer",
-    "Programmer",
+    "Frontend Developer",
+    "Backend Developer",
+    "Software Engineer",
   ],
   description:
-    "I am a motivated and versatile individual, always eager to take on new challenges. With a passion for learning I am dedicated to delivering high-quality results. With a positive attitude and a growth mindset, I am ready to make a meaningful contribution and achieve great things.",
+    "Final-year Computer Science Engineering student and Full Stack Developer with hands-on experience building scalable web applications using React.js, Next.js, Node.js, Firebase, PostgreSQL, and modern frontend technologies. Passionate about solving real-world problems through software development, with experience in AI-powered platforms, HRMS systems, authentication, dashboards, and responsive UI/UX. Strong interest in backend architecture, cloud technologies, and product-focused engineering.",
   github: "https://github.com/shubhamkasture7",
   resume:
     "https://drive.google.com/file/d/18H5XvLbuGDZQUwMDBtY6NpabK5BmdDbQ/view?usp=sharing",
   linkedin: "https://www.linkedin.com/in/shubham-kasture-04b581275",
   insta: "https://www.instagram.com/sk_rider_boy/",
-  facebook: "https://www.facebook.com/share/NYh1bMgmevaBNVJ1/?mibextid=qi2Omg",
+  facebook:
+    "https://www.facebook.com/share/NYh1bMgmevaBNVJ1/?mibextid=qi2Omg",
 };
 
 export const skills = [
@@ -27,7 +26,19 @@ export const skills = [
         image:
           "data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9Ii0xMS41IC0xMC4yMzE3NCAyMyAyMC40NjM0OCI+CiAgPHRpdGxlPlJlYWN0IExvZ288L3RpdGxlPgogIDxjaXJjbGUgY3g9IjAiIGN5PSIwIiByPSIyLjA1IiBmaWxsPSIjNjFkYWZiIi8+CiAgPGcgc3Ryb2tlPSIjNjFkYWZiIiBzdHJva2Utd2lkdGg9IjEiIGZpbGw9Im5vbmUiPgogICAgPGVsbGlwc2Ugcng9IjExIiByeT0iNC4yIi8+CiAgICA8ZWxsaXBzZSByeD0iMTEiIHJ5PSI0LjIiIHRyYW5zZm9ybT0icm90YXRlKDYwKSIvPgogICAgPGVsbGlwc2Ugcng9IjExIiByeT0iNC4yIiB0cmFuc2Zvcm09InJvdGF0ZSgxMjApIi8+CiAgPC9nPgo8L3N2Zz4K",
       },
-
+      {
+        name: "Next.js",
+        image: "https://cdn.worldvectorlogo.com/logos/next-js.svg",
+      },
+      {
+        name: "Tailwind CSS",
+        image:
+          "https://www.vectorlogo.zone/logos/tailwindcss/tailwindcss-icon.svg",
+      },
+      {
+        name: "Redux",
+        image: "https://redux.js.org/img/redux.svg",
+      },
       {
         name: "HTML",
         image: "https://www.w3.org/html/logo/badge/html5-badge-h-solo.png",
@@ -47,7 +58,14 @@ export const skills = [
         image:
           "https://getbootstrap.com/docs/5.3/assets/brand/bootstrap-logo-shadow.png",
       },
-      
+      {
+        name: "Material UI",
+        image: "https://mui.com/static/logo.png",
+      },
+      {
+        name: "ShadCN UI",
+        image: "https://ui.shadcn.com/apple-touch-icon.png",
+      },
     ],
   },
   {
@@ -63,6 +81,16 @@ export const skills = [
           "https://raw.githubusercontent.com/devicons/devicon/master/icons/express/express-original-wordmark.svg",
       },
       {
+        name: "REST API",
+        image:
+          "https://cdn-icons-png.flaticon.com/512/2164/2164832.png",
+      },
+      {
+        name: "Prisma",
+        image:
+          "https://cdn.worldvectorlogo.com/logos/prisma-2.svg",
+      },
+      {
         name: "Python",
         image:
           "https://raw.githubusercontent.com/devicons/devicon/master/icons/python/python-original.svg",
@@ -73,92 +101,24 @@ export const skills = [
           "https://raw.githubusercontent.com/devicons/devicon/master/icons/mysql/mysql-original-wordmark.svg",
       },
       {
+        name: "PostgreSQL",
+        image:
+          "https://raw.githubusercontent.com/devicons/devicon/master/icons/postgresql/postgresql-original-wordmark.svg",
+      },
+      {
+        name: "SQL Server",
+        image:
+          "https://img.icons8.com/color/512/microsoft-sql-server.png",
+      },
+      {
         name: "Firebase",
-        image: "https://www.vectorlogo.zone/logos/firebase/firebase-icon.svg",
-
+        image:
+          "https://www.vectorlogo.zone/logos/firebase/firebase-icon.svg",
       },
       {
         name: "MongoDB",
         image:
           "https://raw.githubusercontent.com/devicons/devicon/master/icons/mongodb/mongodb-original-wordmark.svg",
-      },
-      {
-        name: "PostgreSQL",
-        image:
-          "https://raw.githubusercontent.com/devicons/devicon/master/icons/postgresql/postgresql-original-wordmark.svg",
-      }
-    ],
-  },
-  {
-    title: "Android",
-    skills: [
-      {
-        name: "Java",
-        image:
-          "https://raw.githubusercontent.com/devicons/devicon/master/icons/java/java-original.svg",
-      },
-    
-      {
-        name: "Android Studio",
-        image:
-          "https://developer.android.com/static/studio/images/new-studio-logo-1_1920.png",
-      },
-      {
-        name: "Flutter",
-        image:
-          "https://cdn-images-1.medium.com/max/1200/1*5-aoK8IBmXve5whBQM90GA.png",
-      },
-      {
-        name: "Dart",
-        image:
-          "https://upload.wikimedia.org/wikipedia/commons/1/17/Dart_logo_and_wordmark.svg",
-      }, 
-      {
-
-      }
-    ],
-  },
-  {
-    title: "Others",
-    skills: [
-      {
-        name: "Git",
-        image:
-        "https://github.githubassets.com/images/modules/logos_page/GitHub-Mark.png",
-      },
-      {
-        name: "GitHub",
-        image:
-          "https://github.githubassets.com/images/modules/logos_page/GitHub-Mark.png",
-      },
-      {
-        name: "VS Code",
-        image:
-          "https://upload.wikimedia.org/wikipedia/commons/thumb/9/9a/Visual_Studio_Code_1.35_icon.svg/512px-Visual_Studio_Code_1.35_icon.svg.png?20210804221519",
-      },
-      {
-        name: "ChatGPT",
-        image:
-          "https://upload.wikimedia.org/wikipedia/commons/1/13/ChatGPT-Logo.png",
-      },
-      {
-        name: "Figma",
-        image:
-          "https://upload.wikimedia.org/wikipedia/commons/thumb/3/33/Figma-logo.svg/512px-Figma-logo.svg.png?20210804221519",},
-      {
-        name:"Devops",
-        image:
-          "https://upload.wikimedia.org/wikipedia/commons/thumb/9/9a/DevOps_Logo.svg/512px-DevOps_Logo.svg.png?20210804221519",
-      },
-      {
-        name: "Agile",
-        image:
-          "https://upload.wikimedia.org/wikipedia/commons/thumb/3/3b/Agile-Software-Development-Logo.svg/512px-Agile-Software-Development-Logo.svg.png?20210804221519",
-      },
-      {
-        name: "Linux",
-        image:
-          "https://upload.wikimedia.org/wikipedia/commons/thumb/3/35/Tux.svg/512px-Tux.svg.png?20210804221519",
       },
     ],
   },
@@ -166,20 +126,20 @@ export const skills = [
 
 export const experiences = [
   {
-  id: 0,
-  img: "https://www.deloitte.com/content/dam/assets-shared/logos/svg/a-d/deloitte.svg",
-  role: "Technology Job Simulation Intern",
-  company: "Deloitte (via Forage)",
-  date: "June 2025",
-  desc: "Completed a virtual job simulation by Deloitte through Forage, focusing on real-world tasks related to coding and software development.",
-  skills: [
-    "Software Development",
-    "Problem Solving",
-    "Coding Fundamentals",
-    "Technology Consulting"
-  ],
-  // doc: "https://www.theforage.com/virtual-internships/prototype/yK3tq5GnTbgA2fJ5p/Deloitte-Technology-Consulting-Virtual-Internship"
-},
+    id: 0,
+    img: "https://www.deloitte.com/content/dam/assets-shared/logos/svg/a-d/deloitte.svg",
+    role: "Technology Job Simulation Intern",
+    company: "Deloitte (via Forage)",
+    date: "June 2025",
+    desc: "Completed a virtual job simulation by Deloitte through Forage, focusing on real-world tasks related to coding and software development.",
+    skills: [
+      "Software Development",
+      "Problem Solving",
+      "Coding Fundamentals",
+      "Technology Consulting"
+    ],
+    // doc: "https://www.theforage.com/virtual-internships/prototype/yK3tq5GnTbgA2fJ5p/Deloitte-Technology-Consulting-Virtual-Internship"
+  },
   {
     id: 1,
     img: "https://upload.wikimedia.org/wikipedia/en/8/8b/Internshala_company_logo.png",
@@ -213,7 +173,7 @@ export const experiences = [
     // doc: "/",
 
   },
-  
+
 ];
 
 export const education = [
